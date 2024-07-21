@@ -4,13 +4,12 @@
 #--------------------
 # ...
 #--------------------
-#> enables player-relative time for the task with <task_id>.
+#> enables player-relative-time for the task with <task_id>.
 #--------------------
 #- shorthand for `data modify storage later:data tasks[{task_id:<task_id>}].prt set value true`
 #--------------------
 # 1 - success
-# 0 - no task with <task_id> exists (task could have already been executed).
+# 0 - no task with <task_id> exists (task could have already been executed), or player-relative-time is already enabled for that task.
 #--------------------
 
-function later.prt:_/impl/enable_for/do with storage later.prt:in enable_for
-data remove storage later.prt:in enable_for
+return run function later.prt:_/impl/enable_for/do with storage later.prt:in enable_for
