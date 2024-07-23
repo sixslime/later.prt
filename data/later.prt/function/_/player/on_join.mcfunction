@@ -4,3 +4,4 @@
 #--------------------
 
 function later.prt:_/player/reg
+scoreboard players add *joined_this_tick --later.prt 1 
