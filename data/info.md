@@ -1,8 +1,14 @@
 # Dependencies
+* later
+* six
+* onjoin
 
 # Implements
 
 # Supports
 
 # Abstract?
-true / false
+false
+
+# Notes
+must be loaded BEFORE all dependents
