@@ -11,10 +11,9 @@ pdata:data! {
   players[]! {
     storage! {
       later-prt: {
-        _: {
-          halted_tasks: {
-            TODO
-          }
+        halted_tasks: {
+          remaining_ticks: int
+          task: later:Task (-targets)
         }
       }
     }
