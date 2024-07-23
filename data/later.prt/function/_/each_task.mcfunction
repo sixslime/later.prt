@@ -4,6 +4,7 @@
 #--------------------
 
 data modify storage later.prt:var leave.halting.task set from storage later.prt:var leave.to_halt[-1]
+
 execute store result score *leave.time -later.prt run data get storage later.prt:var leave.halting.task.time
 execute store result score *leave.now_time -later.prt run time query gametime
 scoreboard players operation *leave.time -later.prt -= *leave.now_time -later.prt

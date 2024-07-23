@@ -5,7 +5,7 @@
 
 data modify storage pdata:in get.index set from storage later.prt:var leave.left[-1].index
 function pdata:api/index/get
-data modify storage pdata:in set.storage set from storage pdata:out get.storage
+data modify storage pdata:in set.storage set from storage pdata:out get.result.storage
 
 function later.prt:_/each_left.1 with storage pdata:out get.result
 

@@ -13,3 +13,5 @@ execute if data storage later.prt:var leave.left[] run function later.prt:_/each
 
 data modify storage later.prt:data _.players set from storage later.prt:var leave.current_players
 data remove storage later.prt:var leave
+scoreboard players reset *leave.now_time -later.prt
+scoreboard players reset *leave.time -later.prt
