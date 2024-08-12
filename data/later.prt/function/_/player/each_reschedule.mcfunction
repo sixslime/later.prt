@@ -6,7 +6,7 @@
 data modify storage later.prt:var join.this_halt set from storage later.prt:var join.tasks[-1]
 
 data modify storage six:in guuid.UUID set from entity @s UUID
-function six:api/meta/guuid
+function six:api/uuid/guuid
 
 data modify storage later:in delay.selector set from storage six:out guuid.result
 data modify storage later:in delay.command set from storage later.prt:var join.this_halt.task.command
