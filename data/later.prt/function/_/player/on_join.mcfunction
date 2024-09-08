@@ -13,6 +13,6 @@ data modify storage pdata:in set.storage set from storage pdata:out get.result.s
 data modify storage pdata:in set.storage.later-prt.halted_tasks set value []
 function pdata:api/self/set
 
-execute if data storage later.prt:var join.tasks[] run function later.prt:_/player/each_reschedule
+execute if data storage later.prt:var join.tasks[0] run function later.prt:_/player/each_reschedule
 
 data remove storage later.prt:var join

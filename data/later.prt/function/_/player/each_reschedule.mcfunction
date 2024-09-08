@@ -18,4 +18,4 @@ function later:api/delay
 function later.prt:api/enable
 
 data remove storage later.prt:var join.tasks[-1]
-execute if data storage later.prt:var join.tasks[] run function later.prt:_/player/each_reschedule
+execute if data storage later.prt:var join.tasks[0] run function later.prt:_/player/each_reschedule
