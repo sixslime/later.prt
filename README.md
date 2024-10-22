@@ -12,7 +12,7 @@
 # Overview
 *Commands delayed via [later](https://github.com/sixslime/later) will be referred to as 'tasks'.*
 
-By default, tasks are executed after their specified tick delay, regardless of the existence/status of their targets. \
+By default, tasks are executed after their specified tick delay regardless of the existence/status of their targets. \
 When PRT is enabled on a task, each target--that is a **player**--is given it's own unique delay timer that only counts down while that player is online.
 
 PRT enabled tasks are more in-line with how most Minecraft timers work (e.g. effects, scoreboard timers, etc.) and will never "miss" the player (execute while they are offline).
