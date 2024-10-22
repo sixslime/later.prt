@@ -9,7 +9,7 @@
 - [onjoin](https://github.com/sixslime/onjoin)
 - [pdata](https://github.com/sixslime/pdata)
 
-## Concept
+# Overview
 *Commands delayed via [later](https://github.com/sixslime/later) will be referred to as 'tasks'.*
 
 By default, tasks will run after their specified tick delay, regardless of the existence/status of their targets. \
