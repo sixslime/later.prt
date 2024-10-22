@@ -4,6 +4,7 @@
 > Pause Later-delayed command execution on player leave, resume on join.
 
 ## Dependencies
+- [load](https://github.com/sixslime/load)
 - [later](https://github.com/sixslime/later)
 - [six](https://github.com/sixslime/six)
 - [onjoin](https://github.com/sixslime/onjoin)
