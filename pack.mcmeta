@@ -1,6 +1,6 @@
 {
 	"pack": {
-		"pack_format": 55,
-		"description": "pack description. -SixSlime"
+		"pack_format": 61,
+		"description": "Pause Later-delayed command execution on player leave, resume on join. (Library)"
 	}
 }

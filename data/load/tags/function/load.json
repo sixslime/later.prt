@@ -3,6 +3,7 @@
         "#six:load",
         "#onjoin:load",
         "#later:load",
+        "#pdata:load",
         "#later.prt:load"
     ]
 }
